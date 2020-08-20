@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import com.empresa.backend.models.entity.Cliente;
 import com.empresa.backend.models.service.IClienteService;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api")
 public class ClienteRestController {
